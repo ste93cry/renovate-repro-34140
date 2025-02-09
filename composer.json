@@ -1,0 +1,19 @@
+{
+    "name": "foo/bar",
+    "type": "project",
+    "require": {
+        "php": "^8.2",
+        "open-telemetry/sdk": "^1.2"
+    },
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": {
+            "*": "dist"
+        },
+        "allow-plugins": {
+            "php-http/discovery": false,
+            "tbachert/spi": true
+        }
+    }
+}
